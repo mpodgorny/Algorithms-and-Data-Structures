@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dtend/CLionProjects/SinglyLinkedList/main.c
+unistd.h
+-
+malloc.h
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
