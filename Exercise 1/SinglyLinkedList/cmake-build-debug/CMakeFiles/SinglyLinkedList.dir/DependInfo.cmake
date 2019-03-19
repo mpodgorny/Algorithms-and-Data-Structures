@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/dtend/CLionProjects/SinglyLinkedList/main.c" "C:/Users/dtend/CLionProjects/SinglyLinkedList/cmake-build-debug/CMakeFiles/SinglyLinkedList.dir/main.c.obj"
+  "C:/Users/dtend/CLionProjects/Algorithms-and-Data-Structures/Exercise 1/SinglyLinkedList/main.c" "C:/Users/dtend/CLionProjects/Algorithms-and-Data-Structures/Exercise 1/SinglyLinkedList/cmake-build-debug/CMakeFiles/SinglyLinkedList.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

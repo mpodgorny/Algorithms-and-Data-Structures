@@ -1,12 +1,8 @@
-//Czyste C
-
-#include <unistd.h>
-#include <malloc.h>
-//biblioteki potrzebne do rand(), malloc() oraz printf()
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include<stdio.h>
 
+//only global variable for counting purpose
 int counter=0;
 
 typedef struct node {
@@ -20,14 +16,21 @@ typedef struct node {
  * @param head
  */
 void insert(int value, Node** head) {
-
     if(*head == NULL){
         *head = malloc(sizeof(Node));
+        if(*head==NULL) {
+            fprintf(stderr, "malloc falied\n");
+            exit(-1);
+        }
         (*head)->value = value;
         (*head)->next = NULL;
     } else {
         Node *oldHead = *head;
         *head = malloc(sizeof(Node));
+        if(*head==NULL) {
+            fprintf(stderr, "malloc falied\n");
+            exit(-1);
+        }
         (*head)->value=value;
         (*head)->next= oldHead;
     }
@@ -40,22 +43,21 @@ void insert(int value, Node** head) {
  * @return {0} if found and deleted, {1} if not found.
  */
 int delete(int value, Node** head){
-
     if(*head==NULL) {
         return 0;
     }
 
     Node* temp = (*head)->next;
-    Node* previus=head;
-
+    Node* previous=*head;
 
     /**
      *  If deleted value is in head, assign next element as a head.
      */
-    if(++counter>-1 && (*head)->value==value){ //comparison
+    if(counter++, (*head)->value==value){ //comparison
         *head=((*head)->next);
         return 1;
     }
+
     /**
      * Program will be here only if deleted value wasn't found in head. Then, if list contains only head, return false.
      */
@@ -66,23 +68,20 @@ int delete(int value, Node** head){
      /**
       * Code specific for situation where searched value is in second place - therefore we need direct reference to head pointer.
       */
-    if(++counter>-1 && temp->value==value){ //comparison
+    if(counter++, temp->value==value){ //comparison
         (*head)->next=temp->next;
         return 1;
     }
 
-
-
+    /**
+     * Iterate through nodes; if proper value is found it makes previous element point to value pointed by deleted element.
+     */
     do {
-      if(++counter>-1 && temp->value==value){   //comparison
-          /**
-           * If found, make list skip this element.
-           */
-          previus->next=temp->next;
+      if(counter++, temp->value==value){   //comparison
+          previous->next=temp->next;
         return 1;
       }
-
-    } while(temp->next!=NULL, previus=temp,temp=temp->next);
+    } while(temp->next!=NULL, previous=temp,temp=temp->next);
 
     return 0;
 }
@@ -106,7 +105,7 @@ int isEmpty(Node *head) {
  * @return {0} if found and moved, {1} if not found.
  */
 int findMTF (Node** head, int value) {
-    if(isEmpty(head)==1){
+    if(isEmpty(*head)==1){
         return 0;
     }
     if(delete(value, head)==1){
@@ -119,15 +118,15 @@ int findMTF (Node** head, int value) {
  * Moves found value one place "up" in head direction. Its simply changing value between two adjacent nodes (using temp value).
  */
 int findTRANS(Node** head, int value) {
-    if(isEmpty(head)==1){
+    if(isEmpty(*head)==1){
         return 0;
     }
 
     Node* current = (*head)->next;
-    Node* previus=head;
+    Node* previus=*head;
     int temp;
 
-    if(++counter>-1 && (*head)->value==value) {  //comparison
+    if(counter++, (*head)->value==value) {  //comparison
         //nothing to do here, already in front BUT found this value
         return 1;
     }
@@ -136,7 +135,7 @@ int findTRANS(Node** head, int value) {
         return 0;
     }
 
-    if (++counter>-1 && current->value==value){ //comparison
+    if (counter++, current->value==value){ //comparison
         temp=(*head)->value;
         (*head)->value=current->value;
         current->value=temp;
@@ -144,7 +143,7 @@ int findTRANS(Node** head, int value) {
     }
 
     do {
-        if(++counter>-1 && current->value==value){  //comparison
+        if(counter++, current->value==value){  //comparison
             temp=previus->value;
             previus->value=current->value;
             current->value=temp;
@@ -177,10 +176,8 @@ int print(Node *head){
 }
 
 void randomFill(Node** head) {
-    /**
-     * uncommenting @srand will result in (almost) real random values.
-     */
-    //srand(time(NULL));
+    //Uncomenting srand function will result in (almost) true random values.
+    srand(time(NULL));
     int numbers[100];
     for(int i=0;i<100;i++){
         numbers[i]=rand()%100+1;
@@ -198,38 +195,42 @@ void randomFill(Node** head) {
     }
 }
 
+void testWithTRANS(Node** head){
+    counter=0;
+    int max;
+    while(isEmpty(*head)==0) {
+        max=1;
+        for (int i = 1; i <= 100; i++) {
+            if(findTRANS(head, i)==1 && i>max){max=i;}
+        }
+        delete(max, head);
+    }
+    printf("Comparison(TRANS): %d\n", counter);
+}
+
+void testWithMTF(Node** head){
+    counter=0;
+    int max;
+    while(isEmpty(*head)==0) {
+        max=1;
+        for (int i = 1; i <= 100; i++) {
+            if(findMTF(head, i)==1 && i>max){max=i;}
+        }
+        delete(max, head);
+    }
+    printf("Comparison(MTF): %d\n", counter);
+}
+
 int main() {
     Node* head = NULL;
     Node* head2 = NULL;
+    randomFill(&head);
     randomFill(&head2);
-
-    randomFill(&head);
     print(head);
-    counter=0;
-    int max=1;
-    while(isEmpty(head)==0) {
-        max=1;
-        for (int i = 1; i <= 100; i++) {
-            if(findTRANS(&head, i)==1 && i>max){max=i;}
-        }
-        delete(max, &head);
+    print(head2);
 
-    }
-    printf("%d comparison(TRANS)\n", counter);
+    testWithMTF(&head);
+    testWithTRANS(&head2);
 
-    randomFill(&head);
-    print(head);
-    counter=0;
-    while(isEmpty(head)==0) {
-        max=1;
-        for (int i = 1; i <= 100; i++) {
-            if(findMTF(&head, i)==1 && i>max){max=i;}
-        }
-        delete(max, &head);
-    }
-    printf("%d comparison(MTF)\n", counter);
-
-
-
-    return 0;
+    return 1;
 }

@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dtend/CLionProjects/SinglyLinkedList/main.c
-unistd.h
--
-malloc.h
--
-stdio.h
--
+C:/Users/dtend/CLionProjects/Algorithms-and-Data-Structures/Exercise 1/SinglyLinkedList/main.c
 stdlib.h
 -
 time.h
+-
+stdio.h
 -
 
