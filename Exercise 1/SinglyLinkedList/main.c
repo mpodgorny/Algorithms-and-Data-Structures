@@ -81,7 +81,7 @@ int delete(int value, Node** head){
           previous->next=temp->next;
         return 1;
       }
-    } while(temp->next!=NULL, previous=temp,temp=temp->next);
+    } while(previous=temp,temp=temp->next, temp->Next!=NULL);
 
     return 0;
 }
@@ -150,7 +150,7 @@ int findTRANS(Node** head, int value) {
             return 1;
         }
 
-    } while(current->next!=NULL, previus=current,current=current->next);
+    } while(previus=current,current=current->next, current->next!=NULL);
 
     return 0;
 }
