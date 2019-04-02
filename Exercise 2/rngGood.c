@@ -10,6 +10,9 @@
 #include <time.h>
 
 // CMWC working parts
+/**
+ * SOURCE: https://en.wikipedia.org/wiki/Multiply-with-carry_pseudorandom_number_generator
+ */
 
 struct cmwc_state;
 

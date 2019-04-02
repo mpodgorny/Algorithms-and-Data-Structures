@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dtend/CLionProjects/ASD_L1
+# Install script for directory: C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/dtend/CLionProjects/ASD_L1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

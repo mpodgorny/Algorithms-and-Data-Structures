@@ -6,37 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dtend/CLionProjects/ASD_L1/heapSort.h
-
-C:/Users/dtend/CLionProjects/ASD_L1/main.c
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.c
 stdio.h
--
-mem.h
 -
 stdlib.h
 -
 time.h
 -
-quickSort.h
-C:/Users/dtend/CLionProjects/ASD_L1/quickSort.h
 unifiedFunctions.h
-C:/Users/dtend/CLionProjects/ASD_L1/unifiedFunctions.h
-heapSort.h
-C:/Users/dtend/CLionProjects/ASD_L1/heapSort.h
-selectInsertSort.h
-C:/Users/dtend/CLionProjects/ASD_L1/selectInsertSort.h
-rngGood.h
-C:/Users/dtend/CLionProjects/ASD_L1/rngGood.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.h
 
-C:/Users/dtend/CLionProjects/ASD_L1/quickSort.h
-unifiedFunctions.h
-C:/Users/dtend/CLionProjects/ASD_L1/unifiedFunctions.h
-
-C:/Users/dtend/CLionProjects/ASD_L1/rngGood.h
-stdint.h
--
-
-C:/Users/dtend/CLionProjects/ASD_L1/selectInsertSort.h
-
-C:/Users/dtend/CLionProjects/ASD_L1/unifiedFunctions.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.h
 

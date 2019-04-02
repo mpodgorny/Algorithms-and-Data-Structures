@@ -42,9 +42,6 @@ void insertionSort(int keys[], int n, int asc){
         swaps++;
         j = i - 1;
 
-        /* Move elements of arr[0..i-1], that are
-          greater than key, to one position ahead
-          of their current position */
         if (asc) {
             while (comparison++, j >= 0 && keys[j] > key) {
                 keys[j + 1] = keys[j];

@@ -28,7 +28,7 @@ void printArray(int keys[], int n)
 {
     int i;
     for (i=0; i < n; i++)
-        printf("%d\t;", keys[i]);
+        printf(" %d ;", keys[i]);
     printf("\n");
 }
 void swap(int *newMin, int *oldFirst)

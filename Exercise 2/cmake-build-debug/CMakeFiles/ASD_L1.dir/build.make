@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\dtend\CLionProjects\ASD_L1
+CMAKE_SOURCE_DIR = "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ASD_L1.dir/depend.make
@@ -58,81 +58,81 @@ include CMakeFiles/ASD_L1.dir/flags.make
 
 CMakeFiles/ASD_L1.dir/main.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASD_L1.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\main.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASD_L1.dir/main.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\main.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\main.c"
 
 CMakeFiles/ASD_L1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\main.c > CMakeFiles\ASD_L1.dir\main.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\main.c" > CMakeFiles\ASD_L1.dir\main.c.i
 
 CMakeFiles/ASD_L1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\main.c -o CMakeFiles\ASD_L1.dir\main.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\main.c" -o CMakeFiles\ASD_L1.dir\main.c.s
 
 CMakeFiles/ASD_L1.dir/quickSort.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/quickSort.c.obj: ../quickSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ASD_L1.dir/quickSort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\quickSort.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\quickSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ASD_L1.dir/quickSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\quickSort.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\quickSort.c"
 
 CMakeFiles/ASD_L1.dir/quickSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/quickSort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\quickSort.c > CMakeFiles\ASD_L1.dir\quickSort.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\quickSort.c" > CMakeFiles\ASD_L1.dir\quickSort.c.i
 
 CMakeFiles/ASD_L1.dir/quickSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/quickSort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\quickSort.c -o CMakeFiles\ASD_L1.dir\quickSort.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\quickSort.c" -o CMakeFiles\ASD_L1.dir\quickSort.c.s
 
 CMakeFiles/ASD_L1.dir/heapSort.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/heapSort.c.obj: ../heapSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ASD_L1.dir/heapSort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\heapSort.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\heapSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ASD_L1.dir/heapSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\heapSort.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\heapSort.c"
 
 CMakeFiles/ASD_L1.dir/heapSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/heapSort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\heapSort.c > CMakeFiles\ASD_L1.dir\heapSort.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\heapSort.c" > CMakeFiles\ASD_L1.dir\heapSort.c.i
 
 CMakeFiles/ASD_L1.dir/heapSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/heapSort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\heapSort.c -o CMakeFiles\ASD_L1.dir\heapSort.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\heapSort.c" -o CMakeFiles\ASD_L1.dir\heapSort.c.s
 
 CMakeFiles/ASD_L1.dir/unifiedFunctions.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/unifiedFunctions.c.obj: ../unifiedFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ASD_L1.dir/unifiedFunctions.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\unifiedFunctions.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\unifiedFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ASD_L1.dir/unifiedFunctions.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\unifiedFunctions.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\unifiedFunctions.c"
 
 CMakeFiles/ASD_L1.dir/unifiedFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/unifiedFunctions.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\unifiedFunctions.c > CMakeFiles\ASD_L1.dir\unifiedFunctions.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\unifiedFunctions.c" > CMakeFiles\ASD_L1.dir\unifiedFunctions.c.i
 
 CMakeFiles/ASD_L1.dir/unifiedFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/unifiedFunctions.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\unifiedFunctions.c -o CMakeFiles\ASD_L1.dir\unifiedFunctions.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\unifiedFunctions.c" -o CMakeFiles\ASD_L1.dir\unifiedFunctions.c.s
 
 CMakeFiles/ASD_L1.dir/selectInsertSort.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/selectInsertSort.c.obj: ../selectInsertSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ASD_L1.dir/selectInsertSort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\selectInsertSort.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\selectInsertSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ASD_L1.dir/selectInsertSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\selectInsertSort.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\selectInsertSort.c"
 
 CMakeFiles/ASD_L1.dir/selectInsertSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/selectInsertSort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\selectInsertSort.c > CMakeFiles\ASD_L1.dir\selectInsertSort.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\selectInsertSort.c" > CMakeFiles\ASD_L1.dir\selectInsertSort.c.i
 
 CMakeFiles/ASD_L1.dir/selectInsertSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/selectInsertSort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\selectInsertSort.c -o CMakeFiles\ASD_L1.dir\selectInsertSort.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\selectInsertSort.c" -o CMakeFiles\ASD_L1.dir\selectInsertSort.c.s
 
 CMakeFiles/ASD_L1.dir/rngGood.c.obj: CMakeFiles/ASD_L1.dir/flags.make
 CMakeFiles/ASD_L1.dir/rngGood.c.obj: ../rngGood.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ASD_L1.dir/rngGood.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\rngGood.c.obj   -c C:\Users\dtend\CLionProjects\ASD_L1\rngGood.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ASD_L1.dir/rngGood.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ASD_L1.dir\rngGood.c.obj   -c "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\rngGood.c"
 
 CMakeFiles/ASD_L1.dir/rngGood.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASD_L1.dir/rngGood.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dtend\CLionProjects\ASD_L1\rngGood.c > CMakeFiles\ASD_L1.dir\rngGood.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\rngGood.c" > CMakeFiles\ASD_L1.dir\rngGood.c.i
 
 CMakeFiles/ASD_L1.dir/rngGood.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASD_L1.dir/rngGood.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dtend\CLionProjects\ASD_L1\rngGood.c -o CMakeFiles\ASD_L1.dir\rngGood.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\rngGood.c" -o CMakeFiles\ASD_L1.dir\rngGood.c.s
 
 # Object files for target ASD_L1
 ASD_L1_OBJECTS = \
@@ -156,7 +156,7 @@ ASD_L1.exe: CMakeFiles/ASD_L1.dir/build.make
 ASD_L1.exe: CMakeFiles/ASD_L1.dir/linklibs.rsp
 ASD_L1.exe: CMakeFiles/ASD_L1.dir/objects1.rsp
 ASD_L1.exe: CMakeFiles/ASD_L1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ASD_L1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ASD_L1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ASD_L1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/ASD_L1.dir/clean:
 .PHONY : CMakeFiles/ASD_L1.dir/clean
 
 CMakeFiles/ASD_L1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dtend\CLionProjects\ASD_L1 C:\Users\dtend\CLionProjects\ASD_L1 C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug C:\Users\dtend\CLionProjects\ASD_L1\cmake-build-debug\CMakeFiles\ASD_L1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2" "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2" "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug" "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug" "C:\Users\dtend\Documents\GitHub\Algorithms-and-Data-Structures\Exercise 2\cmake-build-debug\CMakeFiles\ASD_L1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ASD_L1.dir/depend
 

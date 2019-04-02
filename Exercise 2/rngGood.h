@@ -7,7 +7,9 @@
 //
 // Created by dtend on 02.04.2019.
 //
-
+/**
+ * SOURCE: https://en.wikipedia.org/wiki/Multiply-with-carry_pseudorandom_number_generator
+ */
 #include <stdint.h>
 #define CMWC_CYCLE 4096 // as Marsaglia recommends
 #define CMWC_C_MAX 80943066
