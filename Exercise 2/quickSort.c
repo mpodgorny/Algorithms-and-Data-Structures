@@ -1,6 +1,3 @@
-//
-// Created by dtend on 01.04.2019.
-//
 
 #include <time.h>
 #include "quickSort.h"

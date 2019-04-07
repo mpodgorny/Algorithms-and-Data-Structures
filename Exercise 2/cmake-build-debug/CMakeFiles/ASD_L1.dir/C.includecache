@@ -6,15 +6,37 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.c
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/heapSort.h
+
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/main.c
 stdio.h
+-
+mem.h
 -
 stdlib.h
 -
 time.h
 -
+quickSort.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/quickSort.h
 unifiedFunctions.h
 C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.h
+heapSort.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/heapSort.h
+selectInsertSort.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/selectInsertSort.h
+rngGood.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/rngGood.h
+
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/quickSort.h
+unifiedFunctions.h
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.h
+
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/rngGood.h
+stdint.h
+-
+
+C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/selectInsertSort.h
 
 C:/Users/dtend/Documents/GitHub/Algorithms-and-Data-Structures/Exercise 2/unifiedFunctions.h
 

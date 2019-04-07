@@ -69,6 +69,7 @@ void copyArray(int original[], int copy[], int n){
     }
 }
 
+//comparator
 void getRandomInput(int k){
     //n in 100, 200, 300 ... 10000[10k]
     struct cmwc_state cmwc;
@@ -105,7 +106,6 @@ void getRandomInput(int k){
 
 void getFlags(int argc, char *argv[]){
     int asc;
-    int stat=0;
     if (argc!=4 && argc!=7){
         printf("4 or 7 arguments only! Use --type select|insert|heap|quick --desc|asc");
         exit(1);

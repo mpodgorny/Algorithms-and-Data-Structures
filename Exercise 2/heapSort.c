@@ -1,12 +1,8 @@
-//
-// Created by dtend on 02.04.2019.
-//
 
 #include <stdio.h>
 #include <time.h>
 #include "heapSort.h"
 #include "unifiedFunctions.h"
-//TODO: uporządkować kod, pobrać once more z geekow i zaimplementować desc i asc
 extern int swaps;
 extern int comparison;
 extern double timeUsed;

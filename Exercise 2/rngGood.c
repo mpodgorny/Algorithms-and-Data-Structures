@@ -1,6 +1,3 @@
-//
-// Created by dtend on 02.04.2019.
-//
 
 #include "rngGood.h"
 // C99 Complementary Multiply With Carry generator
